@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: Arial, sans-serif;
+        line-height: 1.8;
+        min-height: 100vh;
+        background: #ffffff;
+        flex-direction: column;
+        background-color: gray;
+    }
+
+    /* Main container styling */
+    .main {
+        background-color: gray;
+        border-radius: 15px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+        padding: 20px;
+        transition: transform 0.2s;
+        width: 600px;
+    }
+
+    form {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        /* background-color: gray; */
+    }
+
+    h1 {
+        text-align: center;
+        color: white;
+    }
+
+    input {
+        padding: 10px;
+        /* background-color: gray; */
+        border-radius: 2vh;
+        border-color: #ffffff;
+        
+    }
+    /* placeholder{
+        color: #ffffff;
+        
+    } */
+    button{
+        background-color: chartreuse;
+        padding: 10px;
+        margin: 10px;
+        height: 53px;
+        width: 300px;
+        text-shadow: black;
+        text-size-adjust: 35px;
+    }
+</style>
+<body>
+     <div class="main">
+        <h1>Sign Up</h1>
+        <form>
+ 
+            <p>
+                <label> 
+                    <input type="text" placeholder="First Name" id="first Name" /></label>
+                <label> 
+                    <input type="text" placeholder="Last Name" id="Last Name" /></label>
+            </p>
+ 
+            <p>
+                <label> 
+                    <input type="email" placeholder="Email" /></label>
+            </p>
+            <p>
+                <label> 
+                    <input type="password" placeholder="Enter Password" /></label>
+            </p>
+            <p>
+                <label> 
+                    <input type="password" placeholder="Confirm Password" /></label>
+            </p>
+ 
+            <p>
+                <!-- <button type=""></button> -->
+                 <label ><input type="checkbox" >I accept Terms and Conditions</label>
+            </p>
+            <p>
+                <button>Sign up</button>
+            </p>
+ 
+        </form>
+    </div>
+    
+</body>
+</html>
